@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "_comment": "Import registry — managed by scripts/content/import-manifest.ts. Do not edit manually.",
+  "imports": [],
+  "sources": [],
+  "episodes": [],
+  "fragments": []
+}

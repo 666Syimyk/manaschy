@@ -1,0 +1,61 @@
+{
+  "_draft": true,
+  "_note": "ЧЕРНОВИК. НЕ запускать до получения прав. Саякбай Каралаев умер в 1971 году — авторское право действует до 2041 года. Для импорта необходимо письменное разрешение от НАН КР или наследников Каралаева.",
+  "_status": "awaiting_rights_confirmation",
+  "_rights_contact": "НАН КР (naskr.kg) или наследники С. Каралаева — получить письменное разрешение",
+  "_public_domain_analysis": "Каралаев (1894–1971) умер 55 лет назад. НЕ общественное достояние — ожидать до 2041 г. Текст 4-томника («Туран», 2014) также защищён авторским правом издательства.",
+
+  "sourceId": "src-nas-kr-karalaev-placeholder",
+  "title": "Манас. Семетей. Сейтек. Вариант Саякбая Каралаева. Том 1 (Манас)",
+  "cycleId": "manas",
+  "variantId": "manas-sayakbay-karalaev",
+  "performerOrCompiler": "Саякбай Каралаев",
+  "publisher": "Издательство «Туран», Бишкек",
+  "year": 2014,
+  "language": "ky",
+  "sourceType": "book",
+  "reliability": "academic",
+  "rightsStatus": "unknown",
+  "verificationStatus": "needs_review",
+  "citationText": "Каралаев С. Манас. Семетей. Сейтек: эпос. В 4-х томах. — Бишкек: «Туран», 2014. — 500 553 строки. Т. 1 (Манас).",
+  "notes": "ЧЕРНОВИК — текст не добавлен. 4-томное издание «Туран» 2014. Том 1 = «Манас». Тома 2–3 = «Семетей». Том 4 = «Сейтек». После получения разрешения: получить оглавление тома 1 и заполнить episodes реальными главами из издания.",
+
+  "episodes": [
+    {
+      "id": "manas-karalaev-001",
+      "order": 1,
+      "title": "Глава 1 — заполнить по оглавлению Тома 1",
+      "shortDescription": "Описание появится после получения оглавления 4-томника («Туран», 2014, Т. 1).",
+      "text": "Текст будет добавлен после проверки источника и прав использования.",
+      "sourceIds": ["src-nas-kr-karalaev-placeholder"],
+      "rightsStatus": "unknown",
+      "sourceStatus": "needs_review",
+      "tags": ["манас", "каралаев", "глава-1"],
+      "fragments": []
+    },
+    {
+      "id": "manas-karalaev-002",
+      "order": 2,
+      "title": "Глава 2 — заполнить по оглавлению Тома 1",
+      "shortDescription": "Описание появится после получения оглавления.",
+      "text": "Текст будет добавлен после проверки источника и прав использования.",
+      "sourceIds": ["src-nas-kr-karalaev-placeholder"],
+      "rightsStatus": "unknown",
+      "sourceStatus": "needs_review",
+      "tags": ["манас", "каралаев", "глава-2"],
+      "fragments": []
+    },
+    {
+      "id": "manas-karalaev-003",
+      "order": 3,
+      "title": "Глава 3 — заполнить по оглавлению Тома 1",
+      "shortDescription": "Описание появится после получения оглавления.",
+      "text": "Текст будет добавлен после проверки источника и прав использования.",
+      "sourceIds": ["src-nas-kr-karalaev-placeholder"],
+      "rightsStatus": "unknown",
+      "sourceStatus": "needs_review",
+      "tags": ["манас", "каралаев", "глава-3"],
+      "fragments": []
+    }
+  ]
+}

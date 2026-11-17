@@ -1,0 +1,36 @@
+{
+  "_draft": true,
+  "_note": "ЧЕРНОВИК. НЕ запускать до получения прав. Семетей входит в 4-томник Каралаева («Туран», 2014, тт. 2–3). Авторское право до 2041 г. Для импорта необходимо то же разрешение, что и для Манаса Каралаева.",
+  "_status": "awaiting_rights_confirmation",
+  "_rights_contact": "НАН КР (naskr.kg) или наследники С. Каралаева — получить письменное разрешение на весь 4-томник",
+
+  "sourceId": "src-nas-kr-semetey-placeholder",
+  "title": "Семетей. Вариант Саякбая Каралаева. Тома 2–3 из 4-томного издания",
+  "cycleId": "semetey",
+  "variantId": "semetey-sayakbay-karalaev",
+  "performerOrCompiler": "Саякбай Каралаев",
+  "publisher": "Издательство «Туран», Бишкек",
+  "year": 2014,
+  "language": "ky",
+  "sourceType": "book",
+  "reliability": "academic",
+  "rightsStatus": "unknown",
+  "verificationStatus": "needs_review",
+  "citationText": "Каралаев С. Семетей: эпос / из изд.: Манас. Семетей. Сейтек. В 4-х томах. — Бишкек: «Туран», 2014. Тт. 2–3.",
+  "notes": "ЧЕРНОВИК — текст не добавлен. Права на «Семетей» — часть прав на весь 4-томник Каралаева. Получить оглавление томов 2 и 3 для разметки эпизодов.",
+
+  "episodes": [
+    {
+      "id": "semetey-karalaev-001",
+      "order": 1,
+      "title": "Глава 1 — заполнить по оглавлению Томов 2–3",
+      "shortDescription": "Описание появится после получения оглавления 4-томника («Туран», 2014, тт. 2–3).",
+      "text": "Текст будет добавлен после проверки источника и прав использования.",
+      "sourceIds": ["src-nas-kr-semetey-placeholder"],
+      "rightsStatus": "unknown",
+      "sourceStatus": "needs_review",
+      "tags": ["семетей", "каралаев", "глава-1"],
+      "fragments": []
+    }
+  ]
+}

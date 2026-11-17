@@ -1,0 +1,17 @@
+{
+  "_comment": "Пример манифеста для import-manifest.ts. Не использовать в production без реального источника и прав.",
+  "sourceId": "REPLACE_WITH_REAL_SOURCE_ID",
+  "cycleId": "manas",
+  "variantId": "manas-sayakbay-karalaev",
+  "rightsStatus": "permission_granted",
+  "language": "ky",
+  "episodes": [
+    {
+      "order": 1,
+      "title": "Название главы по изданию",
+      "shortDescription": "Краткое описание по изданию",
+      "text": "Текст главы из верифицированного источника...",
+      "tags": ["эпос", "манас"]
+    }
+  ]
+}

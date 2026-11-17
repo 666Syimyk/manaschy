@@ -1,0 +1,71 @@
+{
+  "_draft": true,
+  "_status": "ready_after_written_confirmation",
+  "_note": "Разрешение получено (2026-06-22). Письменный документ ожидается — см. docs/permissions/nas_kr_orozbakov_permission.md. После получения письменного подтверждения: 1) обновить verificationStatus в sources.ts до 'verified'; 2) заполнить episodes реальным текстом по оглавлению 9-томного издания; 3) запустить --dry-run, затем реальный импорт.",
+  "_next_steps": [
+    "Получить письменный документ от НАН КР",
+    "Обновить verificationStatus: 'verified' и verifiedBy в sources.ts",
+    "Получить оглавление Книги 1 (из 9 книг)",
+    "Заполнить episodes реальными названиями глав и текстом",
+    "Изменить rightsStatus в episodes с 'unknown' на 'permission_granted'",
+    "Изменить sourceStatus в episodes с 'needs_review' на 'verified'",
+    "Разбить каждый эпизод на fragments (500–1000 строк) для RAG",
+    "Запустить: npm run content:import -- --file <path> --dry-run",
+    "Проверить результат, затем: npm run content:import -- --file <path>"
+  ],
+
+  "sourceId": "src-nas-kr-orozbakov-placeholder",
+  "title": "Эпос «Манас». Академическое издание по варианту Сагымбая Орозбакова. Книга 1",
+  "cycleId": "manas",
+  "variantId": "manas-sagymbay-orozbakov",
+  "performerOrCompiler": "Сагымбай Орозбаков",
+  "publisher": "Национальная академия наук Кыргызской Республики, «Туран»",
+  "year": 1995,
+  "language": "ky",
+  "sourceType": "book",
+  "reliability": "academic",
+  "rightsStatus": "permission_granted",
+  "verificationStatus": "needs_review",
+  "citationText": "Орозбаков С. Эпос «Манас»: академическое издание. В 9-ти книгах / ред. С. Мусаев. — Бишкек: НАН КР, «Туран», 1995–2014. — 183 000 строк.",
+  "notes": "Разрешение НАН КР получено 2026-06-22. Письменный документ ожидается. Эпизоды содержат placeholder — после получения письменного подтверждения заполнить реальным текстом по оглавлению Книги 1.",
+
+  "episodes": [
+    {
+      "_fill_instruction": "Заменить эти placeholder-эпизоды реальными главами по оглавлению Книги 1 (из 9-томного издания НАН КР). Не выдумывать названия — только по печатному оглавлению.",
+      "id": "manas-orozbakov-001",
+      "order": 1,
+      "title": "Глава 1 — ЗАПОЛНИТЬ по оглавлению Книги 1",
+      "shortDescription": "Описание появится после получения оглавления Книги 1 из 9-томного академического издания НАН КР.",
+      "text": "Текст будет добавлен после проверки источника и прав использования.",
+      "sourceIds": ["src-nas-kr-orozbakov-placeholder"],
+      "rightsStatus": "permission_granted",
+      "sourceStatus": "needs_review",
+      "tags": ["манас", "орозбаков", "книга-1", "глава-1"],
+      "fragments": []
+    },
+    {
+      "id": "manas-orozbakov-002",
+      "order": 2,
+      "title": "Глава 2 — ЗАПОЛНИТЬ по оглавлению Книги 1",
+      "shortDescription": "Описание появится после получения оглавления.",
+      "text": "Текст будет добавлен после проверки источника и прав использования.",
+      "sourceIds": ["src-nas-kr-orozbakov-placeholder"],
+      "rightsStatus": "permission_granted",
+      "sourceStatus": "needs_review",
+      "tags": ["манас", "орозбаков", "книга-1", "глава-2"],
+      "fragments": []
+    },
+    {
+      "id": "manas-orozbakov-003",
+      "order": 3,
+      "title": "Глава 3 — ЗАПОЛНИТЬ по оглавлению Книги 1",
+      "shortDescription": "Описание появится после получения оглавления.",
+      "text": "Текст будет добавлен после проверки источника и прав использования.",
+      "sourceIds": ["src-nas-kr-orozbakov-placeholder"],
+      "rightsStatus": "permission_granted",
+      "sourceStatus": "needs_review",
+      "tags": ["манас", "орозбаков", "книга-1", "глава-3"],
+      "fragments": []
+    }
+  ]
+}

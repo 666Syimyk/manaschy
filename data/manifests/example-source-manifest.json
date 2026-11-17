@@ -1,0 +1,68 @@
+{
+  "_comment": "ПРИМЕР манифеста для import-manifest.ts. НЕ использовать в production без реального источника и подтверждённых прав.",
+
+  "sourceId": "src-example-karalaev-manas-001",
+  "title": "Название академического издания полностью — как в выходных данных",
+  "cycleId": "manas",
+  "variantId": "manas-sayakbay-karalaev",
+  "performerOrCompiler": "Саякбай Каралаев",
+  "publisher": "Название издательства / Архив / Организация",
+  "year": 1958,
+  "language": "ky",
+  "sourceType": "book",
+  "reliability": "academic",
+  "rightsStatus": "public_domain",
+  "verificationStatus": "verified",
+  "citationText": "Каралаев С. Манас. Кыргыз элинин баатырдык эпосу. — Фрунзе: Кыргызстан, 1958. — Том 1.",
+  "notes": "Пояснение: почему этот источник может использоваться. Подтверждение прав: письмо/документ от правообладателя, дата.",
+
+  "episodes": [
+    {
+      "id": "manas-karalaev-001",
+      "order": 1,
+      "title": "Название главы точно по оглавлению издания",
+      "shortDescription": "Краткое описание главы — 1-2 предложения",
+      "text": "Здесь будет текст главы из источника — только если rightsStatus === public_domain или permission_granted. Не копировать текст с сайтов без проверки прав.",
+      "sourceIds": ["src-example-karalaev-manas-001"],
+      "rightsStatus": "public_domain",
+      "sourceStatus": "verified",
+      "tags": ["манас", "каралаев", "глава-1"],
+      "fragments": [
+        {
+          "id": "manas-karalaev-001-frag-001",
+          "order": 1,
+          "text": "Первый фрагмент главы — используется AI/RAG для поиска",
+          "startTime": null,
+          "endTime": null
+        },
+        {
+          "id": "manas-karalaev-001-frag-002",
+          "order": 2,
+          "text": "Второй фрагмент главы",
+          "startTime": null,
+          "endTime": null
+        }
+      ]
+    },
+    {
+      "id": "manas-karalaev-002",
+      "order": 2,
+      "title": "Название второй главы точно по оглавлению",
+      "shortDescription": "Краткое описание второй главы",
+      "text": "Текст второй главы из верифицированного источника.",
+      "sourceIds": ["src-example-karalaev-manas-001"],
+      "rightsStatus": "public_domain",
+      "sourceStatus": "verified",
+      "tags": ["манас", "каралаев", "глава-2"],
+      "fragments": [
+        {
+          "id": "manas-karalaev-002-frag-001",
+          "order": 1,
+          "text": "Фрагмент второй главы",
+          "startTime": null,
+          "endTime": null
+        }
+      ]
+    }
+  ]
+}
